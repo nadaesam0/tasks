@@ -1,0 +1,41 @@
+body{
+    background-color: #71a0b2;
+   height: 100%vh;
+}
+.text-input{
+    padding: 5px
+}
+.font-color{
+    color: 15B392;
+}
+.container{
+    background-color: white;
+    width: 619px;
+    height: 684px;
+    margin: auto;
+    border-top-right-radius:10px ;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px
+
+}
+.age-box{
+    width: 88%;
+}
+
+header{
+    background-color: #e1e2e6;
+    text-align: center;
+    border-top-right-radius:10px ;
+    border-top-left-radius: 10px;
+    padding: 2px;
+}
+.color{
+    height: 80px;
+    margin-top: 78px;
+    background-color: #e1e2e6;
+    text-align: center;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius: 10px;
+    padding: 0px;
+}

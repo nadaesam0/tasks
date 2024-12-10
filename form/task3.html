@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>task 3</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h2 style=" margin-left: -25px; color: rgb(96, 94, 94);">Create Account</h2>
+            </header>
+            <table style="margin-left: 64px; margin-top: 24px;">
+                <tr>
+                    <td class="font-color" ><b>First name*</b></td>
+                    <td class="font-color" ><b>Last name*</b></td>
+
+                </tr>
+                <tr>
+                    <td> <input class="text-input" type="text" name="first" placeholder="enter your first name" size="28"></td>
+                    <td> <input class="text-input" type="text" name="last" placeholder="enter your last name" size="29"></td>
+
+                </tr>
+                <tr>
+                  <td class="font-color" ><b>Email*</b></td>
+                </tr>
+                <tr>
+                    <td colspan="2"> <input class="text-input" type="text" name="email" placeholder="enter your email" size="66"></td>
+                </tr>
+                <tr>
+                    <td class="font-color" ><b>Password*</b></td>
+                    <td class="font-color" ><b>Confirm Password*</b></td>
+                </tr>
+                <tr>
+                    <td><input class="text-input" type="password" name="password" placeholder="enter your password" size="28"></td>
+                    <td><input class="text-input" type="password" name="password" placeholder="enter your password again" size="29S"></td>
+                </tr>
+                <tr>
+                    <td class="font-color" ><b>Gender:</b></td>
+                    <td class="font-color" ><b>Hobbies</b></td>
+                </tr>
+                <tr>
+                    <td><input type="radio" name="gender" value="male"><font size="3" style="color: gray;">Male</font> <input type="radio" name="gender" value="female"><font size="3" style="color: gray;">Female</font></td>
+                    <td><input type="checkbox" name="Hobbies" value="music"><font size="3" style="color: gray;">Music</font>
+                    <input type="checkbox" name="Hobbies" value="soprts"><font size="3" style="color: gray;">Sports</font>
+                    <input type="checkbox" name="Hobbies" value="travel"><font size="3" style="color: gray;">Travel</font>
+                    <input type="checkbox" name="Hobbies" value="movies"><font size="3" style="color: gray;">Movies</font>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="font-color" ><b>Source of Income</b></td>
+                    <td class="font-color" ><b>Income</b></td>
+                </tr>
+                <tr>
+                    <td> <select name="source"><option value="Employed" selected>Employed</option></select></td>
+                    <td><input type="range" name="rang" min="0" max="20000"> <input type="button" name="20K" value="20K" style="background-color: 15B392 ; color: aliceblue;"></td>
+                </tr>
+                <tr>
+                    <td class="font-color" ><b>Upload Porfile Picture</b></td>
+                    <td class="font-color" ><b>Age</b></td>
+                </tr>
+                <tr>
+                    <td><input type="file" name="browse" value="Browse..."></td>
+                    <td><input class="age-box" type="number" min="1" max="100" value="1"></td>
+                </tr>
+                <tr>
+                    <td class="font-color" ><b>Bio</b></td> 
+                </tr>
+                <tr>
+                    <td colspan="2"><textarea name="bio" rows="6" cols="60"></textarea></td>
+                </tr>
+            </table>
+            <div class="color">
+                <input class="button" type="button" name="create" value="Creat" style="padding: 5px 10px; background-color:15B392 ; color: aliceblue; margin-left: -35; margin-top: 28;">
+                <i style="color: gray; margin-left: -475;">*required</i>
+            </div>
+            
+        </div>
+</body>
+</html>

@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    direction: ltr;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.img-container img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.contact-info {
+    padding-left: 20px;
+}
+
+h1 {
+    color: #2c3e50;
+    font-size: 2.5em;
+}
+
+a {
+    color: #2980b9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #ccc;
+    margin: 20px 0;
+}
+
+.section-title {
+    color: #34495e;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.professional-summary, .work-experience, .education, .skills, .certifications, .reference {
+    padding: 20px;
+    margin: 10px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+.skills ul li {
+    background-color: #ecf0f1;
+    padding: 5px;
+    border-radius: 4px;
+    margin: 5px 0;
+}
+
+.contact-info p {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+.contact-info a {
+    font-size: 1.2em;
+}
+
+.work-experience, .education, .skills {
+    background-color: #f9fafb;
+}
+
+
+body {
+    background: linear-gradient(to right, #f0f4f8, #f9fafb);
+}
